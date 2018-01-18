@@ -12,15 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3334c76-aecf-46ff-9830-bb834f84a123" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Mood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/badMood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/goodMood.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="lonelyTwitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,8 +120,8 @@
           <file leaf-file-name="LonelyTwitterActivity.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="163" column="59" lean-forward="true" selection-start-line="163" selection-start-column="59" selection-end-line="163" selection-end-column="59" />
+                <state relative-caret-position="421">
+                  <caret line="168" column="43" lean-forward="true" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -2137,7 +2129,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516255512808" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516263855195" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2184,7 +2176,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516255512808" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516263855196" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2366,7 +2358,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516255512809" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516263855197" />
       </method>
     </configuration>
     <list size="1">
@@ -2721,8 +2713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="163" column="59" lean-forward="true" selection-start-line="163" selection-start-column="59" selection-end-line="163" selection-end-column="59" />
+        <state relative-caret-position="421">
+          <caret line="168" column="43" lean-forward="true" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
