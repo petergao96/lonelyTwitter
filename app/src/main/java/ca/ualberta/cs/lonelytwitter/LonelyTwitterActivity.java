@@ -16,6 +16,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -44,12 +45,27 @@ public class LonelyTwitterActivity extends Activity {
 			public void onClick(View v) {
 				setResult(RESULT_OK);
 				String text = bodyText.getText().toString();
-				saveInFile(text, new Date(System.currentTimeMillis()));
+				boolean moody;
+				final CheckBox checkBox = (CheckBox) findViewById(R.id.checkbox);
+
+				if (checkBox.isChecked()) {
+					checkBox.setChecked(false);
+					moody = false;
+				}
+				else {
+					checkBox.setChecked(true);
+					moody = true;
+				}
+				saveInFile(text, new Date(System.currentTimeMillis()), moody);
 				finish();
 
 			}
 		});
+
 	}
+
+
+
 
 	@Override
 	protected void onStart() {
@@ -130,11 +146,24 @@ public class LonelyTwitterActivity extends Activity {
 		return tweets.toArray(new String[tweets.size()]);
 	}
 	
-	private void saveInFile(String text, Date date) {
+	private void saveInFile(String text, Date date, boolean moody) {
+		String moodText;
+		if (moody =true)
+		{
+			goodMood goody = new goodMood(moody);
+			moodText = goody.printMood();
+		}
+		else
+		{
+			badMood goody = new badMood(moody);
+			moodText = goody.printMood();
+
+		}
+
 		try {
 			FileOutputStream fos = openFileOutput(FILENAME,
 					Context.MODE_APPEND);
-			fos.write(new String(date.toString() + " | " + text)
+			fos.write(new String(date.toString() + " | " + text + " | " +moodText)
 					.getBytes());
 			fos.close();
 		} catch (FileNotFoundException e) {
