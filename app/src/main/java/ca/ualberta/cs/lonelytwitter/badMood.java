@@ -20,4 +20,9 @@ public class badMood extends Mood {
         return("Bad Mood\n");
     }
 
+
+    @Override
+    public Boolean isGood() {
+        return Boolean.FALSE;
+    }
 }

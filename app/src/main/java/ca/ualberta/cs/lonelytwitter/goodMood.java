@@ -21,4 +21,9 @@ public class goodMood extends Mood{
         return("Good Mood\n");
     }
 
+
+    @Override
+    public Boolean isGood() {
+        return Boolean.TRUE;
+    }
 }

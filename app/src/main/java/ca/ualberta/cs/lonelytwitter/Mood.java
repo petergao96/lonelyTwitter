@@ -30,5 +30,6 @@ public abstract class Mood {
     }
 
 
+    public abstract Boolean isGood();
 
 }
