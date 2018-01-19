@@ -26,7 +26,7 @@ public class LonelyTwitterActivity extends Activity {
 	private static final String FILENAME = "file.sav";
 	private EditText bodyText;
 	private ListView oldTweetsList;
-	
+	private boolean moody;
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -40,22 +40,33 @@ public class LonelyTwitterActivity extends Activity {
 
 
 
+		final CheckBox checkBox = (CheckBox) findViewById(R.id.checkbox);
+
+		checkBox.setOnClickListener(new View.OnClickListener()
+		{
+			public void onClick(View v)
+			{
+
+				if (checkBox.isChecked()) {
+					checkBox.setChecked(true);
+					moody = true;
+				}
+				else
+				{
+					checkBox.setChecked(false);
+					moody = false;
+				}
+			}
+		});
+
+
+
 		saveButton.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				setResult(RESULT_OK);
 				String text = bodyText.getText().toString();
-				boolean moody;
-				final CheckBox checkBox = (CheckBox) findViewById(R.id.checkbox);
 
-				if (checkBox.isChecked()) {
-					checkBox.setChecked(false);
-					moody = false;
-				}
-				else {
-					checkBox.setChecked(true);
-					moody = true;
-				}
 				saveInFile(text, new Date(System.currentTimeMillis()), moody);
 				finish();
 
@@ -148,7 +159,7 @@ public class LonelyTwitterActivity extends Activity {
 	
 	private void saveInFile(String text, Date date, boolean moody) {
 		String moodText;
-		if (moody =true)
+		if (moody)
 		{
 			goodMood goody = new goodMood(moody);
 			moodText = goody.printMood();
@@ -157,7 +168,6 @@ public class LonelyTwitterActivity extends Activity {
 		{
 			badMood goody = new badMood(moody);
 			moodText = goody.printMood();
-
 		}
 
 		try {

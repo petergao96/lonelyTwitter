@@ -17,7 +17,7 @@ public class badMood extends Mood {
     }
     public String printMood()
     {
-        return("Bad Mood");
+        return("Bad Mood\n");
     }
 
 }
