@@ -30,7 +30,8 @@ public class LonelyTwitterActivity extends Activity {
 	/** Called when the activity is first created. */
 
 
-	
+	private ArrayList<Tweet> tweetList;
+	private ArrayAdapter<Tweet> adapter;
 
 
 
