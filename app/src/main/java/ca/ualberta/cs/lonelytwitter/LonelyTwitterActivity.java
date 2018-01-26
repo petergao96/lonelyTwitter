@@ -166,14 +166,16 @@ public class LonelyTwitterActivity extends Activity {
 		}
 		else
 		{
-			badMood goody = new badMood(moody);
-			moodText = goody.printMood();
+			badMood baddy = new badMood(moody);
+			moodText = baddy.printMood();
 		}
 
 		try {
 			FileOutputStream fos = openFileOutput(FILENAME,
 					Context.MODE_APPEND);
-			fos.write(new String(date.toString() + " | " + text + " | " +moodText)
+			fos.write(new String(date.toString() + " | " + text+"\n")
+					.getBytes());
+			fos.write((date.toString() + " | " + moodText)
 					.getBytes());
 			fos.close();
 		} catch (FileNotFoundException e) {
