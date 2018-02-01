@@ -8,13 +8,13 @@
  *
  * January 30, 2018
  *
- * Copyright © 2018 Team X, CMPUT301, University of Alberta -- All Rights Reserved.
- * You may use, distribute, or modify this code under terms and conditions of the Code of Student Behaviour at university of Alberta
+ * Copyright © 2018 Team X, CMPUT301, University of Alberta - All Rights Reserved.
+ * You may use, distribute, or modify this code under terms and conditions of the Code of Student
+ * Behaviour at university of Alberta
  * You can find a copy of the licence in this project. Otherwise please contact contact@abc.ca.
  */
 
 package ca.ualberta.cs.lonelytwitter;
-
 import java.util.Date;
 
 /**
@@ -24,8 +24,6 @@ import java.util.Date;
  *  @see NormalTweet
  *  @see ImportantTweet
  */
-
-
 
 public abstract class Tweet implements Tweetable {
     private String message;
@@ -57,9 +55,9 @@ public abstract class Tweet implements Tweetable {
     }
 
     /**
-     * Gets a string message
+     * Returns a message
      *
-     * @return message as a String
+     * @return message tweet message
      */
 
     public String getMessage(){
@@ -82,16 +80,35 @@ public abstract class Tweet implements Tweetable {
         }
     }
 
+    /**
+     * Returns the date
+     *
+     * @return date tweet date
+     */
     public Date getDate(){
         return date;
     }
 
+    /**
+     * Sets the date
+     *
+     * @param date tweet date
+     */
     public void setDate(Date date){
         this.date = date;
     }
 
+    /**
+     * Abstract isimportant Boolean
+     *
+     */
     public abstract Boolean isImportant();
 
+    /**
+     * Forms the string message with date
+     *
+     * @return date.toString() + " | " + message
+     */
     public String toString() {
         return date.toString() + " | " + message;
     }
