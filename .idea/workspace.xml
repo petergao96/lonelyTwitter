@@ -11,11 +11,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3334c76-aecf-46ff-9830-bb834f84a123" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" />
-    </list>
+    <list default="true" id="e3334c76-aecf-46ff-9830-bb834f84a123" name="Default" comment="" />
     <ignored path="lonelyTwitter.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,11 +47,12 @@
       <file leaf-file-name="LonelyTwitterActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+            <state relative-caret-position="14">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#1497#1767#0" expanded="true" />
                 <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1804#1975#0" expanded="true" />
                 <element signature="e#1974#1975#0" expanded="true" />
               </folding>
             </state>
@@ -2297,7 +2294,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516930396335" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516930472371" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2344,7 +2341,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516930396335" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516930472371" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2505,7 +2502,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516930396336" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516930472372" />
       </method>
     </configuration>
     <list size="1">
@@ -2631,6 +2628,7 @@
           <folding>
             <element signature="e#1497#1767#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1804#1975#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
@@ -2659,6 +2657,7 @@
           <folding>
             <element signature="e#1497#1767#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1804#1975#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
@@ -2695,6 +2694,7 @@
           <folding>
             <element signature="e#1497#1767#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1804#1975#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
@@ -2725,6 +2725,7 @@
           <folding>
             <element signature="e#1497#1767#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1804#1975#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
@@ -2821,6 +2822,7 @@
           <folding>
             <element signature="e#1497#1767#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1804#1975#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
@@ -2848,6 +2850,7 @@
           <folding>
             <element signature="e#1497#1767#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1804#1975#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
@@ -2972,11 +2975,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+        <state relative-caret-position="14">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#1497#1767#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1804#1975#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
