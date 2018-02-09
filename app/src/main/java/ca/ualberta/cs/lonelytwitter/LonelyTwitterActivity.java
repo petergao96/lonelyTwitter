@@ -32,7 +32,7 @@ import com.google.gson.reflect.TypeToken;
 
 public class LonelyTwitterActivity extends Activity {
 
-	private static final String FILENAME = "tweets.sav";
+	private static final String FILENAME = "subs.sav";
 	private EditText bodyText;
 	private ListView oldTweetsList;
 
