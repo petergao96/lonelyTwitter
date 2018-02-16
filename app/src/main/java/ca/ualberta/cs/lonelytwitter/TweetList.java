@@ -12,7 +12,11 @@ public class TweetList {
 
     public void add(Tweet tweet) {
 
+        if (hasTweet(tweet)) {
+            throw new IllegalArgumentException("Duplicate tweet found!");
+        }
         tweets.add(tweet);
+
 
     }
 

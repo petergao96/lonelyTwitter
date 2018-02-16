@@ -7,20 +7,26 @@ package ca.ualberta.cs.lonelytwitter;
 import android.test.ActivityInstrumentationTestCase2;
 
 import junit.framework.Assert;
+import org.junit.Test;
 
 public class TweetListTest extends ActivityInstrumentationTestCase2 {
 
     public TweetListTest(){
         super(LonelyTwitterActivity.class);
     }
-
+    @Test(expected = IllegalArgumentException.class)
     public void testAddTweet(){
-
+        boolean thrown = false;
         TweetList tweets = new TweetList();
         Tweet tweet = new NormalTweet("adding tweet");
-        tweets.add(tweet);
-        assertTrue(tweets.hasTweet(tweet));
 
+        tweets.add(tweet);
+        try{
+            tweets.add(tweet);
+        }catch(IllegalArgumentException e){
+            thrown = true;
+        }
+        assertTrue(thrown);
     }
 
     public void testHasTweet(){
